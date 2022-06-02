@@ -1,0 +1,10 @@
+n=int(input("enter number"))
+pr=1
+s=0
+i=1
+while i<=n:
+    pr=i*pr
+    print(pr,end="+")
+    s+=pr
+    i+=1
+print("=",s)
